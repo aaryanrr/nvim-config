@@ -1,0 +1,10 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx", "css", "Markdown", "python"],
+  "eslint.filetypes": ["javascript", "typescript", "typescriptreact", "javascriptreact", "typescript.tsx"],
+  "coc.preferences.diagnostic.virtualText": true,
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "diagnostic.errorSign": "✘",
+  "diagnostic.warningSign": "",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": "•"
+}

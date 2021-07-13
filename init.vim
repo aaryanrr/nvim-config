@@ -40,6 +40,7 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'Pocco81/TrueZen.nvim'
+Plug 'sbdchd/neoformat'
 call plug#end()
 
 "Config

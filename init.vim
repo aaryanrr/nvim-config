@@ -30,6 +30,7 @@ Plug 'psf/black'
 Plug 'tweekmonster/django-plus.vim'
 Plug 'tpope/vim-surround'
 Plug 'dansomething/vim-hackernews'
+Plug 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
 call plug#end()
 
 "Config

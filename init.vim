@@ -5,7 +5,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-vetur', 'coc-svelte', 'coc-eslint', 'coc-yaml', 'coc-toml', 'coc-tailwindcss', 'coc-markdownlint', 'coc-discord-rpc', 'coc-sh', 'coc-clangd', 'coc-cmake', 'coc-docker', 'coc-pyright']
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-vetur', 'coc-svelte', 'coc-eslint', 'coc-yaml', 'coc-toml', 'coc-tailwindcss', 'coc-markdownlint', 'coc-discord-rpc', 'coc-sh', 'coc-clangd', 'coc-cmake', 'coc-docker', 'coc-pyright', 'coc-spell-checker']
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'mhinz/vim-signify'

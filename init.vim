@@ -41,6 +41,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'Pocco81/TrueZen.nvim'
 Plug 'sbdchd/neoformat'
+Plug 'pechorin/any-jump.vim'
 call plug#end()
 
 "Config

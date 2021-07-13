@@ -21,6 +21,8 @@ if 'VIRTUAL_ENV' in os.environ:
   execfile(activate_this, dict(__file__=activate_this))
 EOF
 
+let g:neoformat_enabled_python = ['autopep8', 'yapf']
+
 " Python exec
 let g:python3_host_prog = expand("/bin/python3")
 let g:python_host_prog = expand("/bin/python2")

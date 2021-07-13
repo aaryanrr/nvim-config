@@ -3,6 +3,8 @@
   "eslint.filetypes": ["javascript", "typescript", "typescriptreact", "javascriptreact", "typescript.tsx"],
   "coc.preferences.diagnostic.virtualText": true,
   "coc.preferences.extensionUpdateCheck": "daily",
+  "eslint.autoFixOnSave": true,
+  "eslint.autoFix": true,
   "diagnostic.errorSign": "✘",
   "diagnostic.warningSign": "",
   "diagnostic.infoSign": "",

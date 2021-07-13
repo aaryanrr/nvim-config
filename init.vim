@@ -31,6 +31,7 @@ Plug 'tweekmonster/django-plus.vim'
 Plug 'tpope/vim-surround'
 Plug 'dansomething/vim-hackernews'
 Plug 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
+Plug 'turbio/bracey.vim'
 call plug#end()
 
 "Config

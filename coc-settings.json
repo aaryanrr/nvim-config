@@ -8,5 +8,13 @@
   "diagnostic.errorSign": "✘",
   "diagnostic.warningSign": "",
   "diagnostic.infoSign": "",
-  "diagnostic.hintSign": "•"
+  "diagnostic.hintSign": "•",
+  "cSpell.userWords": [
+    "aaryanrr",
+    "authy",
+    "clamav",
+    "flatpak",
+    "updatedb",
+    "vcpkg"
+  ]
 }

@@ -5,7 +5,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-vetur', 'coc-svelte', 'coc-eslint', 'coc-yaml', 'coc-toml', 'coc-tailwindcss', 'coc-markdownlint', 'coc-discord-rpc', 'coc-sh', 'coc-clangd', 'coc-cmake', 'coc-docker', 'coc-pyright', 'coc-spell-checker']
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-vetur', 'coc-svelte', 'coc-eslint', 'coc-yaml', 'coc-toml', 'coc-tailwindcss', 'coc-markdownlint', 'coc-discord-rpc', 'coc-sh', 'coc-clangd', 'coc-cmake', 'coc-docker', 'coc-pyright', 'coc-spell-checker', 'coc-xml', 'coc-marketplace']
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'mhinz/vim-signify'
@@ -17,7 +17,7 @@ Plug 'ruanyl/vim-sort-imports'
 Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }
 Plug 'tpope/vim-commentary'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'projekt0n/github-nvim-theme'
+Plug 'ghifarit53/tokyonight-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
@@ -42,6 +42,12 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'Pocco81/TrueZen.nvim'
 Plug 'sbdchd/neoformat'
 Plug 'pechorin/any-jump.vim'
+Plug 'tpope/vim-dadbod'
+Plug 'kristijanhusak/vim-dadbod-ui'
+Plug 'skywind3000/asyncrun.vim'
+Plug 'luochen1990/rainbow'
+Plug 'gregsexton/MatchTag'
+Plug 'mhinz/vim-startify'
 call plug#end()
 
 "Config
@@ -50,8 +56,21 @@ if (has("termguicolors"))
  set termguicolors
 endif
 syntax enable
-lua require('github-theme').setup()
+
+" Color Scheme
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
+let g:tokyonight_transparent_background = 1
+let g:airline_theme = "tokyonight"
+colorscheme tokyonight
+
 set number
+
+" Leader key
+let mapleader = ";"
+
+" Rainbow brackets
+let g:rainbow_active = 1
 
 "NerdTree
 
@@ -59,7 +78,7 @@ let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
 let g:NERDTreeIgnore = []
 let g:NERDTreeStatusline = ''
-" Automaticaly close nvim if NERDTree is only thing left open
+" Automatically close nvim if NERDTree is only thing left open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " Toggle
 nnoremap <silent> <C-b> :NERDTreeToggle<CR>
@@ -76,7 +95,7 @@ au BufEnter * if &buftype == 'terminal' | :startinsert | endif
 
 " open terminal on ctrl+n
 function! OpenTerminal()
-  split term://bash
+  split term://zsh
   resize 10
 endfunction
 nnoremap <c-n> :call OpenTerminal()<CR>

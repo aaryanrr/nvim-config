@@ -13,7 +13,15 @@
     "aaryanrr",
     "authy",
     "clamav",
+    "dotenv",
     "flatpak",
+    "isfunction",
+    "ispkg",
+    "linebreak",
+    "noqa",
+    "pipenv",
+    "pycharm",
+    "unqualify",
     "updatedb",
     "vcpkg"
   ]

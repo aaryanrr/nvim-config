@@ -10,6 +10,7 @@
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": "•",
   "cSpell.userWords": [
+    "Pywhatkit",
     "aaryanrr",
     "authy",
     "clamav",
@@ -19,10 +20,14 @@
     "ispkg",
     "linebreak",
     "noqa",
+    "osascript",
     "pipenv",
+    "playonyt",
     "pycharm",
+    "timehr",
     "unqualify",
     "updatedb",
-    "vcpkg"
+    "vcpkg",
+    "xclip"
   ]
 }

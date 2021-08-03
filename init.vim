@@ -6,5 +6,4 @@ source ~/.config/nvim/plugins/fzf.vim
 source ~/.config/nvim/plugins/coc.vim
 source ~/.config/nvim/plugins/typescript.vim
 source ~/.config/nvim/plugins/others.vim
-source ~/.config/nvim/plugins/python.vim
 

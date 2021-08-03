@@ -24,7 +24,6 @@
     "vue",
     "markdown"
   ],
-  "htmldjango.builtin.pythonPath": "/bin/python3.9",
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "markdown",
@@ -39,8 +38,6 @@
     "Markdown",
     "python"
   ],
-  "python.analysis.typeCheckingMode": "strict",
-  "python.linting.pylintEnabled": true,
   "cSpell.userWords": ["htmldjango", "numpy", "pydocstring", "pylint"],
   "yaml.format.enable": true,
   "yaml.schemaStore.enable": true,

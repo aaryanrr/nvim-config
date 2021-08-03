@@ -19,10 +19,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'kkvh/vim-docker-tools'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'vim-scripts/indentpython.vim'
-Plug 'tweekmonster/django-plus.vim'
 Plug 'tpope/vim-surround'
-Plug 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh' }
 Plug 'f-person/git-blame.nvim'

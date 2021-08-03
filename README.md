@@ -1,3 +1,3 @@
 # Neovim Configuration Files
 
-## This is the setup that I use for Python, Javascript and C/C++
+## This is the setup that I use for Wed Development and C/C++

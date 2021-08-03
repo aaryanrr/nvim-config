@@ -1,14 +1,3 @@
-" PEP8 indentation
-"au BufNewFile,BufRead *.py
-"    \ set tabstop=4
-"    \ set softtabstop=4
-"    \ set shiftwidth=4
-"    \ set textwidth=79
-"    \ set expandtab
-"    \ set autoindent
-"    \ set fileformat=unix
-
-"python with virtualenv support
 py << EOF
 import os
 import sys
@@ -22,3 +11,5 @@ let g:neoformat_enabled_python = ['autopep8', 'yapf']
 
 " Python exec
 let g:python3_host_prog = expand("/bin/python3.9")
+let g:python_host_prog = expand("/bin/python")
+
